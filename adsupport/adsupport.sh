@@ -6,6 +6,9 @@ CROSS_COMPILER_TARGET_ARCHS =
 # Enable file plugins and source them all from ADSupport
 # this minimizes dependency issues with system libraries
 
+WITH_GRAPHICSMAGICK = YES
+GRAPHICSMAGICK_EXTERNAL = NO
+
 WITH_HDF5     = YES
 HDF5_EXTERNAL = NO
 
